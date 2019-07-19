@@ -39,7 +39,7 @@ class Item {
 $(function(){
   $('#js-shopping-list-form').submit(function(event){
     event.preventDefault();
-    let $input = $('#shopping-list-entry');
+    let $input = $('#shopping-list-entry').val();
     let $name;
 
     if($input !== ""){
