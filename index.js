@@ -43,7 +43,7 @@ $(function(){
     let $name;
 
     if($input !== ""){
-      $name = $input.val();
+      $name = $input;
       let item = new Item($name);
       item.addItem();
     }else{
